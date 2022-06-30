@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rath.fhir.radi",
+    "type": "ImplementationGuide",
+    "url": "https://radi.org/fhir/",
+    "version": "0.2.0",
+    "name": "RADIFHIRImplementationGuide"
+  },
+  {
+    "id": "RADICondition",
+    "type": "StructureDefinition",
+    "url": "https://radi.org/fhir/StructureDefinition/RADICondition",
+    "version": "0.2.0",
+    "name": "RADIConditionProfile"
+  },
+  {
+    "id": "RADIEncounter",
+    "type": "StructureDefinition",
+    "url": "https://radi.org/fhir/StructureDefinition/RADIEncounter",
+    "version": "0.2.0",
+    "name": "RADIEncounterProfile"
+  },
+  {
+    "id": "RADIObservationFBS",
+    "type": "StructureDefinition",
+    "url": "https://radi.org/fhir/StructureDefinition/RADIObservationFBS",
+    "version": "0.2.0",
+    "name": "RADIObservationFBS"
+  },
+  {
+    "id": "RADIPatient",
+    "type": "StructureDefinition",
+    "url": "https://radi.org/fhir/StructureDefinition/RADIPatient",
+    "version": "0.2.0",
+    "name": "RADIPatientProfile"
+  },
+  {
+    "id": "RADIPractitionerProfile",
+    "type": "StructureDefinition",
+    "url": "https://radi.org/fhir/StructureDefinition/RADIPractitionerProfile",
+    "version": "0.2.0",
+    "name": "RADIPractitionerProfile"
+  }
+]

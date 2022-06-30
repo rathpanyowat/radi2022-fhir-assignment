@@ -1,0 +1,91 @@
+{
+  "package": "rath.fhir.radi",
+  "version": "0.2.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {
+    "Condition": [
+      {
+        "url": "https://radi.org/fhir/StructureDefinition/RADICondition",
+        "title": "RADI Condition Profile"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "https://radi.org/fhir/StructureDefinition/RADIEncounter",
+        "title": "RADI Encounter Profile"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://radi.org/fhir/StructureDefinition/RADIObservationFBS",
+        "title": "RADI Observation FBS"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://radi.org/fhir/StructureDefinition/RADIPatient",
+        "title": "RADI Patient Profile"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://radi.org/fhir/StructureDefinition/RADIPractitionerProfile",
+        "title": "RADI Practitioner Profile"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-citizenship": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "ImplementationGuide",
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "ImplementationGuide",
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page",
+      "StructureDefinition",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}
